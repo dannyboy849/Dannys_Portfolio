@@ -1,9 +1,14 @@
-import Image from "next/image";
+import Hero from "./components/Hero"
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-6 py-12 sm:py-20 sm:px-10 gap-12">
       {/* Header */}
+      <Hero />
+      <Projects />
+      <Contact />
       <header className="text-center">
         <h1 className="text-4xl sm:text-6xl font-bold mb-4">Daniel Vargas</h1>
         <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300">
@@ -62,7 +67,7 @@ export default function Home() {
           Email: <a href="mailto:dvarg88@gmail.com" className="underline">dvarg88@gmail.com</a>
         </p>
         <p className="text-gray-700 dark:text-gray-300">
-          LinkedIn: <a href="https://www.linkedin.com/in/daniel-vargas-slydly/" className="underline">yourprofile</a>
+          LinkedIn: <a href="https://www.linkedin.com/in/daniel-vargas-slydly/" className="underline">daniel-vargas</a>
         </p>
         <p className="text-gray-700 dark:text-gray-300">
           GitHub: <a href="https://github.com/dannyboy849" className="underline">dannyboy849</a>

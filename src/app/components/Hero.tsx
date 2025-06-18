@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="flex flex-col items-center justify-center min-h-[80vh] text-center gap-6">
       <Image
-        src="/images/your-photo.jpg"
+        src="/public/Images/Profile.jpg"
         alt="Your photo"
         width={120}
         height={120}

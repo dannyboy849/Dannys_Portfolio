@@ -28,3 +28,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+  @apply bg-gradient-to-b from-white to-gray-100 dark:from-black dark:to-gray-900;
+}
